@@ -8,4 +8,4 @@ class HeartsMod(loader.Module):
 		for _ in range(3):
 			for heart in ['❤️' ,'🧡' ,'💛' ,'💚' ,'💙' ,'💜' ,'🖤' ,'🤍' ,'🤎' ,'❣' ,'💕' ,'💞' ,'💓','💗' ,'💖','💘' ,'💝' ,'💟']:
 				await message.edit(heart)
-				await sleep(0.01)
+				await sleep(1.0)
