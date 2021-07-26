@@ -4,7 +4,6 @@ from .. import loader
 from asyncio import sleep
 @loader.tds
 class timerMod(loader.Module):
-	strings = {"name": "timerpoh"}
 	@loader.owner
 	async def timercmd(self, message):
 
