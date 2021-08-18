@@ -6,6 +6,6 @@ class HeartsMod(loader.Module):
  @loader.owner
  async def ssakacmd(self, message):
   for _ in range(2):
-   for heart in ['я' ,'видел' ,'как' ,'ты' ,'обоссался' ,'вчера']:
+   for heart in ['я' ,'видел' ,'как' ,'ты' ,'обоссался' ,'вчера','Я видел как ты обоссался вчера']:
     await message.edit(heart)
     await sleep(0.9)
